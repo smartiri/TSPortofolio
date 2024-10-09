@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Carwash",
+        "image_path": "/images/carwash.jpg",
+        "description": "A carwash system using django and flask"
+    },
+    {
+        "title": "Blog Page",
+        "image_path": "/images/blog.webp",
+        "description": "A blogpage with posts using python"
+    },
+    {
+        "title": "CD Store",
+        "image_path": "/images/music.png",
+        "description": "A program that sells cd build with Java and JavaFX."
+    },
+    {
+        "title": "To Do List",
+        "image_path": "/images/todo.webp",
+        "description": "To do list using django."
+    },
+    {
+        "title": "Bookstore",
+        "image_path": "/images/bookshop.jpg",
+        "description": "A bookstore page using php."
+    },
+    {
+        "title": "Voting System",
+        "image_path": "/images/vore.jpg",
+        "description": "Blockchain voting system build with solidity and react."
+    }
+]

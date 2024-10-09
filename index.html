@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - TeamSystem Bootcamp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul class="menu">
+                <a href="/">
+                    <img src="/images/React.webp" alt="web-page" id="logo" />
+                </a>
+                <a href="/">
+                    <li>Home</li>
+                
+                </a>
+                <a href="#article">
+                    <li>About Me</li>
+                </a>
+                <a href="#project">
+                    <li>Project</li>
+                    
+                </a>
+                <a href="#skills">
+                    <li>Skills</li>
+                    
+                </a>
+                <a href="#contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="navbar-mobile">
+            <div class="flexrow-row">
+                <div style="padding: 5%;">
+                    <button id="hamb-icon" onclick="open_close()">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div>
+                    <a href="/">
+                        <img src="/images/React.webp" alt="web-page" id="logo" />
+                    </a>
+                </div>
+            </div>
+            <div id="whole-menu">
+                <ul id="mobile-menu">
+                    <a href="/">
+                        <li>Home</li>
+                    
+                    </a>
+                    <a href="#">
+                        <li>Project</li>
+                        
+                    </a>
+                    <a href="#">
+                        <li>Skills</li>
+                        
+                    </a>
+                    <a href="#">
+                        <li>About Me</li>
+                        
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Sara Martiri</h1>
+                <p>Software Developer</p>
+                <a href="#project">
+                    <button type="button" >View my work!</button>
+                </a>
+            </div>
+        </div> 
+        <div id="article" class="article-section">
+            <div class="about_img">
+                <img src="/images/gojo-getou.jpg" alt="Sara Martiri" width="300px">
+            </div>
+            <div class="article">
+                <h1>
+                    Hello! I'm Sara Martiri, a passionate and curious software developer 
+                </h1>
+                <p>
+                    With a strong foundation in front-end and back-end development, I’ve spent the last few years sharpening my skills in HTML, CSS, JavaScript, Java, Angular, and React. My programming journey began with HTML and CSS, but creating interactive websites quickly sparked my passion for JavaScript. This led me to explore frameworks like Angular and React, both of which opened new doors to building seamless user experiences.
+                    Java Enthusiast
+                    
+                    Although I started in web development, my curiosity pushed me to server-side technologies, where I embraced Java. I love its versatility, from building scalable back-end systems to developing mobile apps. Whether it's designing sleek interfaces or constructing robust APIs, Java is a key tool in my toolkit.
+                    Framework Explorer
+                    
+                    Angular and React are my go-tos for building dynamic UIs. Angular’s structure is great for large applications, while React’s flexibility allows for highly customizable development. I thrive on leveraging both to create interactive and responsive apps.
+                    Problem Solver
+                    
+                    At the heart of my passion is problem-solving. Whether debugging or optimizing, I enjoy diving into complex challenges. My experience ranges from simple websites to full-scale web applications, contributing to my growing expertise.
+                    Lifelong Learner
+                    
+                    I constantly seek new technologies and best practices to stay current. Through courses, coding challenges, and open-source contributions, I’m always expanding my skills.
+                    Beyond Code
+                    
+                    Outside of coding, I enjoy exploring tech trends, AI advancements, or brainstorming my next project with a cup of coffee. If you’re looking for someone who loves coding, embraces challenges, and is eager to learn, let’s build something awesome together! 
+                </p>
+            </div>
+        </div>
+        <h1 style="text-align: center;padding: 2%;">Projects</h1>
+        <div id="project" class="project_section">
+            <div class="project">
+                <img src="/images/carwash.jpg" alt="carwash" class="project_img">
+                <hr>
+                <h2 class="project_title">Carwash</h2>
+                <p class="project_desc">A carwash system using django and flask.</p>
+                <button type="button">View More</button>
+            </div>
+            <div class="project">
+                <img src="/images/music.png" alt="cdstore" class="project_img">
+                <hr>
+                <h2 class="project_title">CD Store</h2>
+                <p class="project_desc">A program that sells stores build with Java and JavaFX.</p>
+                <button type="button">View More</button>
+            </div>
+            <div class="project">
+                <img src="/images/blog.webp" alt="blog" class="project_img">
+                <hr>
+                <h2 class="project_title">Blog Page</h2>
+                <p class="project_desc">A blogpage with posts using python.</p>
+                <button type="button">View More</button>
+            </div>
+            <div class="project">
+                <img src="images/todo.webp" alt="todo" class="project_img">
+                <hr>
+                <h2 class="project_title">To Do List</h2>
+                <p class="project_desc">To do list using django.</p>
+                <button type="button">View More</button>
+            </div>
+            <div class="project">
+                <img src="images/bookshop.jpg" alt="bookstore" class="project_img">
+                <hr>
+                <h2 class="project_title">Bookstore</h2>
+                <p class="project_desc">A bookstore page using php.</p>
+                <button type="button">View More</button>
+            </div>
+            <div class="project">
+                <img src="images/vote.jpg" alt="vote" class="project_img" style="padding:7%">
+                <hr>
+                <h2 class="project_title">Voting System</h2>
+                <p class="project_desc">Blockchain voting system build with solidity and react.</p>
+                <button type="button" id="view_more">View More</button>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 id="modal_title">Voting system</h2>
+              </div>
+              <div class="modal-body">
+                <p id="modal_body">Blockchain voting system build with solidity and react.</p>
+                
+              </div>
+              <div class="modal-footer">
+                <h3></h3>
+              </div>
+            </div>
+        </div>
+        <div id="skills">
+            <h1 style="text-align: center;">Skills</h1>
+            <div class="skills_section">
+                <div class="skill">
+                    <h3 class="skill_title">Html</h3>
+                    <progress class="progress_bar" value="95" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <h3 class="skill_title">CSS</h3>
+                    <progress class="progress_bar" value="83" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <h3 class="skill_title">Javascript</h3>
+                    <progress class="progress_bar" value="80" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <h3 class="skill_title">React</h3>
+                    <progress class="progress_bar" value="32" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <h3 class="skill_title">Angular</h3>
+                    <progress class="progress_bar" value="40" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <h3 class="skill_title">Java</h3>
+                    <progress class="progress_bar" value="50" max="100"></progress>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact-section">
+            <form class="contact-form" id="contact_form">
+                <h1 style="text-align: center;padding-bottom: 20px;">Contact Me</h1>   
+                <div class="align-items">
+                    <label for="name">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <span class="error" id="name-error"></span>
+                    </label>
+                    <label for="lastname">
+                        <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+                        <span class="error" id="lastname-error"></span>
+                    </label>
+                    <label for="email">
+                        <input type="text" name="email" id="email" placeholder="Email">
+                        <span  class="error" id="email-error"></span>
+                    </label>
+                    <label for="subject">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <span class="error" id="subject-error"></span>
+                    </label>
+                </div>
+                <label for="message">
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <span id="msg-error" class="error"></span>
+                </label>
+                <div id="success"></div>
+                <input type="submit" value="Submit" id="submit-contact">
+            </form>
+        </div>
+        <button id="scrollToTopBtn" class="scrollToTopBtn">↑</button>
+    </div>
+    <footer class="footer">
+        <div>
+            <p class="footer-nav">powered by SM@<span id="year"></span></p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    
+</body>
+</html>
